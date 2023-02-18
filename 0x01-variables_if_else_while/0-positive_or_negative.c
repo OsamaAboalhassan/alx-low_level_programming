@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Determines prints  if a number is positive or negative,negative or ze
-  ro.
- *
- * Return: Alwase 0 (Success)
+ * main - entry point
+ * Description: prints  if a number is positive or negative.
+ * Return: 0
  */
 int main(void)
 {
@@ -26,4 +25,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-}	
+}
