@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point
- * Description: prints  if a number is positive or negative.
- * Return: 0
+ * main - Determines prints  if a number is positive or negative,negative or ze
+  ro.
+ *
+ * Return: Alwase 0 (Success)
  */
 int main(void)
 {
