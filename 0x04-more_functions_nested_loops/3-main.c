@@ -1,13 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - checks my code
+ * main - check the code
  *
- * Return: Always 0
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	print_numbers();
-	return (0);
+    print_numbers();
+    return (0);
 }
