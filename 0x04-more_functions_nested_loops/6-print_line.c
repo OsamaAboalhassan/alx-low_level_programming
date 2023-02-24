@@ -1,30 +1,20 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 0 - 14
+ * print_line - prints a line
+ * @n: variable
  *
- * Return: void
+ * Return: 0
  */
 
-void more_numbers(void)
+void print_line(int n)
 {
-	char n, c;
-	int i = 0;
+	int a = 0;
 
-	while (i < 10)
+	while (a < n && n > 0)
 	{
-		for (n = 0; n <= 14; n++)
-		{
-			c = n;
-			if (n > 9)
-			{
-				_putchar('1');
-				c = n % 10;
-			}
-			_putchar('0' + c);
-		}
-
-		_putchar('\n');
-		i++;
+		_putchar('_');
+		a++;
 	}
+	_putchar('\n');
 }
